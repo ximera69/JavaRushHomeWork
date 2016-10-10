@@ -22,8 +22,27 @@ public class Solution
 
         //напишите тут ваш код
 
+        int [] arr = new int[20];
+        for (int i = 0; i<arr.length; i++)
+        {
+            arr[i] = Integer.parseInt(reader.readLine());
+        }
+         maximum = arr[0];
+        for (int i=0; i<arr.length; i++)
+        {
+            if (arr[i]>maximum)
+                maximum=arr[i];
+        }
+         minimum = arr[0];
+        for (int i=0; i<arr.length; i++)
+        {
+            if (arr[i]<minimum)
+                minimum=arr[i];
+        }
 
-        System.out.println(maximum);
+
+
+        System.out.print(maximum+" ");
         System.out.println(minimum);
     }
 }
