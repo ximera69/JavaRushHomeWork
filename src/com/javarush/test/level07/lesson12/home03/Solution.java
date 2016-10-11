@@ -39,9 +39,6 @@ public class Solution
             if (arr[i]<minimum)
                 minimum=arr[i];
         }
-
-
-
         System.out.print(maximum+" ");
         System.out.println(minimum);
     }
