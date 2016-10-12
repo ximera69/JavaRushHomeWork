@@ -20,7 +20,7 @@ public class Solution
         {
             System.out.println(i);
             //напишите тут ваш код
-            Thread.sleep(100);
+            Thread.sleep(1000);
         }
         System.out.println("Бум!");
     }
